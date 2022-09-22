@@ -10,7 +10,7 @@ body {
 }
 h1 {
   text-align: Center;
-  color: blue;
+  color: rgb(187, 184, 21);
 }
 #gifSearch {
   margin-bottom: 15px;
@@ -22,4 +22,17 @@ h1 {
 #formSubmit,
 #removeGIFs {
   height: 31px;
+  border-radius: 5px;
+}
+#removeGIFs {
+  background: rgb(30, 18, 138);
+  border: rgb(30, 18, 138);
+  color: lightblue;
+}
+#gifContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+  background: rgba(162, 176, 179, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
 }

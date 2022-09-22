@@ -28,3 +28,5 @@ gifSearch.addEventListener("submit", function (e) {
   userSearch(userInput.value);
   userInput.value = "";
 });
+
+removeGIFs.addEventListener("click", function () {});
