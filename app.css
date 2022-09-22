@@ -5,12 +5,21 @@ body {
     rgba(1, 29, 61, 1) 35%,
     rgba(1, 104, 125, 1) 100%
   );
+  text-align: center;
   background-attachment: fixed;
 }
 h1 {
   text-align: Center;
   color: blue;
 }
-body {
-  text-align: center;
+#gifSearch {
+  margin-bottom: 15px;
+}
+#userInput {
+  border-radius: 5px;
+  height: 25px;
+}
+#formSubmit,
+#removeGIFs {
+  height: 31px;
 }
