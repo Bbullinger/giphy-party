@@ -29,4 +29,6 @@ gifSearch.addEventListener("submit", function (e) {
   userInput.value = "";
 });
 
-removeGIFs.addEventListener("click", function () {});
+removeGIFs.addEventListener("click", function () {
+  document.querySelector("#gifContainer").innerHTML = "";
+});
